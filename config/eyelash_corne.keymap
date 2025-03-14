@@ -69,10 +69,10 @@
         layer_1 {
             display-name = "Nav";
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5                           &none         &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp N0    &kp BSPC
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3              &none  &none  &none  &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &none           &none         &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                                         &trans        &trans        &trans                                         &trans           &trans           &trans
+&mt F1 F7  &mt F2 F7        &kp N2          &kp N3        &kp N4        &mt F6 F12                       &none         &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp N0    &kp BSPC
+&trans     &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3              &none  &none  &none  &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
+&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &none           &none         &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+                                            &trans        &trans        &trans                                         &trans           &trans           &trans
             >;
         };
 
