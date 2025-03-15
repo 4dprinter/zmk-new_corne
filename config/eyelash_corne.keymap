@@ -95,9 +95,9 @@
         layer_0 {
             display-name = "QWERTY";
             bindings = <
-&kp TAB  &kp Q          &kp W          &kp E             &kp R             &kp T                                &kp UP                &kp Y            &kp U              &kp I         &kp O                  &kp P                        &kp BSPC
-&kp ESC  &LHRM LSHFT A  &LHRM LCTRL S  &LHRM LEFT_GUI D  &LHRM LEFT_ALT F  &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &RHRM RIGHT_ALT J  &RHRM RCMD K  &RHRM RIGHT_CONTROL L  &RHRM RIGHT_SHIFT SEMICOLON  &kp SQT
-&td0     &kp Z          &kp X          &kp C             &kp V             &kp B         &kp SPACE              &kp DOWN              &kp N            &kp M              &kp COMMA     &kp DOT                &kp FSLH                     &mt RIGHT_SHIFT ENTER
+&kp TAB  &kp Q          &kp W          &kp E             &kp R             &kp T                                &kp UP                &kp Y            &kp U              &kp I              &kp O                  &kp P                        &kp BSPC
+&kp ESC  &LHRM LSHFT A  &LHRM LCTRL S  &LHRM LEFT_ALT D  &LHRM LEFT_GUI F  &kp G                      &kp LEFT  &kp ENTER  &kp RIGHT  &kp H            &RHRM RIGHT_GUI J  &RHRM RIGHT_ALT K  &RHRM RIGHT_CONTROL L  &RHRM RIGHT_SHIFT SEMICOLON  &kp SQT
+&td0     &kp Z          &kp X          &kp C             &kp V             &kp B         &kp SPACE              &kp DOWN              &kp N            &kp M              &kp COMMA          &kp DOT                &kp FSLH                     &mt RIGHT_SHIFT ENTER
                                        &kp LGUI          &lt 1 SPACE       &lt 2 DELETE                                               &lt 2 BACKSPACE  &lt 1 SPACE        &kp RCTRL
             >;
         };
