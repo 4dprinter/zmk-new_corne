@@ -98,9 +98,9 @@
         layer_1 {
             display-name = "Nav";
             bindings = <
-&mt F1 F7  &mt F2 F7  &mt F3 F8  &mt F4 F9  &mt F5 F10  &mt F6 F12                         &none         &kp PG_UP        &kp HOME         &kp UP           &kp END          &kp N0    &trans
-&trans     &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)   &kp C_VOLUME_UP             &none  &none  &none  &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
-&none      &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp C_VOLUME_DOWN  &none           &none         &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&mt F1 F7  &mt F2 F7  &mt F3 F8  &mt F4 F9  &mt F5 F10  &mt F6 F12                         &none         &kp PG_UP        &kp HOME         &kp UP           &kp END          &trans  &trans
+&trans     &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)   &kp C_VOLUME_UP             &none  &none  &none  &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &trans  &trans
+&none      &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)   &kp C_VOLUME_DOWN  &none           &none         &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans
                                  &trans     &trans      &trans                                           &trans           &trans           &trans
             >;
         };
@@ -108,10 +108,10 @@
         layer_2 {
             display-name = "Num";
             bindings = <
-&kp GRAVE  &kp Q      &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                   &none         &kp CARET  &kp N7  &kp N8        &kp N9  &kp MINUS  &kp MINUS
-&trans     &kp LC(A)  &kp LC(D)  &kp LC(D)  &kp LC(F)  &kp G                &none  &none  &none  &kp MINUS  &kp N4  &kp N5        &kp N6  &kp PLUS   &kp GRAVE
-&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans           &none         &kp UNDER  &kp N1  &kp N2        &kp N3  &kp EQUAL  &kp EQUAL
-                                 &trans     &trans     &trans                                    &trans     &trans  &kp NUMBER_0
+&kp GRAVE  &kp Q      &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                   &none         &kp CARET         &kp N7  &kp N8        &kp N9  &kp MINUS  &kp BACKSLASH
+&trans     &kp LC(A)  &kp LC(D)  &kp LC(D)  &kp LC(F)  &kp G                &none  &none  &none  &kp LEFT_BRACKET  &kp N4  &kp N5        &kp N6  &kp PLUS   &kp RIGHT_BRACKET
+&trans     &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans           &none         &kp UNDER         &kp N1  &kp N2        &kp N3  &kp EQUAL  &kp EQUAL
+                                 &trans     &trans     &trans                                    &trans            &trans  &kp NUMBER_0
             >;
         };
 
